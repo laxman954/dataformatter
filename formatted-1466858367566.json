@@ -1,0 +1,183 @@
+{
+  "id" : "1JN95230CN9943322",
+  "time" : {
+    "created" : "2005-12-13T17:07:47Z",
+    "updated" : "2006-01-27T22:40:39Z"
+  },
+  "type" : {
+    "summary" : "PAYMENT"
+  },
+  "amount" : {
+    "gross" : {
+      "value" : "29.88",
+      "currency_code" : "USD"
+    },
+    "net" : {
+      "value" : "29.88",
+      "currency_code" : "USD"
+    },
+    "fee" : {
+      "value" : "0.00",
+      "currency_code" : "USD"
+    }
+  },
+  "billing" : {
+    "items" : [ {
+      "name" : "amt item #a",
+      "number" : "4075988184",
+      "price" : {
+        "value" : "5.00",
+        "currency_code" : "USD"
+      },
+      "quantity" : 1,
+      "url" : "http://cgi.ebay.com/ws/eBayISAPI.dll?ViewItem&item=4075988184",
+      "total_price" : {
+        "value" : "6.64",
+        "currency_code" : "USD"
+      },
+      "tax_amount" : {
+        "value" : "2.00",
+        "currency_code" : "USD"
+      },
+      "tax_rate" : 0.0,
+      "is_item_taxable" : false
+    }, {
+      "name" : "amt item #b",
+      "number" : "4075988199",
+      "price" : {
+        "value" : "5.00",
+        "currency_code" : "USD"
+      },
+      "quantity" : 1,
+      "url" : "http://cgi.ebay.com/ws/eBayISAPI.dll?ViewItem&item=4075988199",
+      "total_price" : {
+        "value" : "6.64",
+        "currency_code" : "USD"
+      },
+      "tax_amount" : {
+        "value" : "0.00",
+        "currency_code" : "USD"
+      },
+      "tax_rate" : 0.0,
+      "is_item_taxable" : false
+    }, {
+      "name" : "Specialized Bike",
+      "number" : "1234567",
+      "price" : {
+        "value" : "12.60",
+        "currency_code" : "USD"
+      },
+      "quantity" : 1,
+      "options" : [ {
+        "name" : "Model",
+        "selection" : "Stumpjumper"
+      }, {
+        "name" : "Color",
+        "selection" : "Red"
+      } ],
+      "total_price" : {
+        "value" : "14.60",
+        "currency_code" : "USD"
+      },
+      "tax_amount" : {
+        "value" : "0.00",
+        "currency_code" : "USD"
+      },
+      "tax_rate" : 0.0,
+      "is_item_taxable" : false
+    } ],
+    "subtotal" : {
+      "value" : "22.60",
+      "currency_code" : "USD"
+    },
+    "sales_tax_percentage" : 0,
+    "sales_tax" : {
+      "value" : "2.00",
+      "currency_code" : "USD"
+    },
+    "shipping_amount" : {
+      "value" : "5.28",
+      "currency_code" : "USD"
+    },
+    "handling_amount" : {
+      "value" : "0.00",
+      "currency_code" : "USD"
+    },
+    "insurance_amount" : {
+      "value" : "0.00",
+      "currency_code" : "USD"
+    },
+    "insurance_option_selected" : false,
+    "shipping_option_is_default" : false,
+    "gift_receipt" : false
+  },
+  "shipping" : [ {
+    "destination" : {
+      "destination_address" : {
+        "line1" : "23 krish na road",
+        "city" : "chicago",
+        "state" : "IL",
+        "phone" : "217-207-5617",
+        "postal_code" : "60605",
+        "country_code" : "US",
+        "country_name" : "United States",
+        "addressee_name" : "Rajnikanth SuperStar"
+      },
+      "is_confirmed" : true
+    }
+  } ],
+  "status" : "CANCELED",
+  "message" : {
+    "memo" : "Consolidated Payment"
+  },
+  "channels" : [ "EBAY" ],
+  "internal_id" : "ehLpXhB4d0UjMjoQSZWD9evXlBoUsFWQg_5qWRNlJOREiMneECAJmUXawhy",
+  "counterparty" : {
+    "email" : "mvardhan-2005121322181742@paypal.com",
+    "country" : "US",
+    "name" : "Eric Hill",
+    "first_name" : "Eric",
+    "last_name" : "Hill",
+    "ebay_username" : "qa22calc",
+    "is_email_confirmed" : true,
+    "account_status" : "UNVERIFIED",
+    "encrypted_account_number" : "S3JCPPV7HGG4W",
+    "account_number" : "1317951136382706410"
+  },
+  "debit_credit_code" : "DEBIT",
+  "money_movements" : [ {
+    "amount" : {
+      "gross" : {
+        "value" : "29.88",
+        "currency_code" : "USD"
+      },
+      "net" : {
+        "value" : "29.88",
+        "currency_code" : "USD"
+      },
+      "fee" : {
+        "value" : "0.00",
+        "currency_code" : "USD"
+      }
+    },
+    "status" : "FAILED",
+    "time" : {
+      "created" : "2005-12-13T17:07:47Z",
+      "updated" : "2006-01-27T22:40:39Z"
+    },
+    "funding_source" : {
+      "type" : "ECHECK",
+      "bank_name" : "The Bank of Western Massachusetts",
+      "account_number_last_n" : "7033",
+      "instrument_type" : "SAVINGS",
+      "confirmation_status" : "CONFIRMED",
+      "country_code" : "US"
+    },
+    "is_delayed_funding" : false,
+    "debit_credit_code" : "DEBIT"
+  } ],
+  "market_place" : "EBAY",
+  "free_return_shipping_claim_info" : {
+    "eligibility_status" : [ "FRS_INELIGIBLE_DUE_TO_COUNTRY_NOT_ENABLED" ]
+  }
+}
