@@ -29,9 +29,12 @@ import javax.swing.JTextArea;
 import com.rmj.formatter.utils.FormatterUtils;
 
 /**
- * @author lperumalm
- * @version 1.0
- * {@link} 
+ * A DataFormatterUI is Frontend UI to get plain text and beautify the data to
+ * improve readability
+ *
+ * 
+ * @author lekshmana perumal
+ * @version 1.0 See {@link https://github.com/laxman954/dataformatter}
  */
 public class DataFormatterUI {
 
