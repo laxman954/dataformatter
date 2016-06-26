@@ -1,4 +1,4 @@
-package com.paypal.formatter.ui;
+package com.rmj.formatter.ui;
 
 import java.awt.Color;
 import java.awt.EventQueue;
@@ -26,8 +26,13 @@ import javax.swing.JScrollPane;
 import javax.swing.JTabbedPane;
 import javax.swing.JTextArea;
 
-import com.paypal.formatter.utils.FormatterUtils;
+import com.rmj.formatter.utils.FormatterUtils;
 
+/**
+ * @author lperumalm
+ * @version 1.0
+ * {@link} 
+ */
 public class DataFormatterUI {
 
 	private JFrame frmDataFormatterPypl;
@@ -61,7 +66,7 @@ public class DataFormatterUI {
 	private void initialize() {
 		frmDataFormatterPypl = new JFrame();
 		frmDataFormatterPypl.setResizable(false);
-		frmDataFormatterPypl.setTitle("Data Formatter PYPL");
+		frmDataFormatterPypl.setTitle("Data Formatter");
 		frmDataFormatterPypl.setBounds(100, 100, 707, 653);
 		frmDataFormatterPypl.setDefaultCloseOperation(JFrame.EXIT_ON_CLOSE);
 		frmDataFormatterPypl.getContentPane().setLayout(null);

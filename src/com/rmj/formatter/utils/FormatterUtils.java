@@ -1,4 +1,4 @@
-package com.paypal.formatter.utils;
+package com.rmj.formatter.utils;
 
 import org.codehaus.jackson.map.ObjectMapper;
 
